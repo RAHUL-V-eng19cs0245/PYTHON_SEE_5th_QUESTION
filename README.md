@@ -3,19 +3,7 @@ Program is given in debug_exam.py and Instructions are given in ReadMe file.
 # Fork the repository and commit the changes.
 # Answers should be given for all three questions here.
 5 a)
-if k in data1:
-            v1 = data1[k]
-        if v1 != v2:
-            dupKeys[k] = [v1, v2]
-            del data1[k]
-        else:
-            data1[k] = v2
-    return dupKeys
-    
-
-5 b)
-
-    def uniqueUpdate(data1, data2):
+def uniqueUpdate(data1, data2):
     # Initially empty dictionary
     dupKeys = {}
 
@@ -39,6 +27,17 @@ if k in data1:
     # After processing all (k, v2) in
     # data2, return the dictionary
     return dupKeys
+
+5 b)
+if k in data1:
+            v1 = data1[k]
+        if v1 != v2:
+            dupKeys[k] = [v1, v2]
+            del data1[k]
+        else:
+            data1[k] = v2
+    return dupKeys
+
     5c)
        test case1:
        4
