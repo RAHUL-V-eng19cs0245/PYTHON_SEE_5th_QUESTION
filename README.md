@@ -12,7 +12,9 @@ if k in data1:
             data1[k] = v2
     return dupKeys
     
-5b)
+
+5 b)
+
     def uniqueUpdate(data1, data2):
     # Initially empty dictionary
     dupKeys = {}
@@ -37,7 +39,6 @@ if k in data1:
     # After processing all (k, v2) in
     # data2, return the dictionary
     return dupKeys
-    
     5c)
        test case1:
        4
