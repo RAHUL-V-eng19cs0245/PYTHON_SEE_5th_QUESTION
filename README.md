@@ -11,6 +11,8 @@ if k in data1:
         else:
             data1[k] = v2
     return dupKeys
+
+
 5 b)
 def uniqueUpdate(data1, data2):
     # Initially empty dictionary
@@ -37,7 +39,8 @@ def uniqueUpdate(data1, data2):
     # data2, return the dictionary
     return dupKeys
 
-    5c)
+
+5c)
        test case1:
        4
        1 2
